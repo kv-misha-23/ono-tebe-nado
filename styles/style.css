@@ -49,14 +49,13 @@
   line-height: 24.3px;
 }
 
-/* section coverlay */
 .cover {
+  max-width: 1440px;
+  margin: 0 auto;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .overlay {
@@ -127,8 +126,8 @@
   width: 258px;
   height: 52px;
   border: 1px solid #fff;
-  font-family: inherit;
   color: #fff;
+  font-family: inherit;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -138,7 +137,6 @@
   cursor: pointer;
 }
 
-/* section lots */
 .lots {
   max-width: 1340px;
   margin: 180px auto 182px auto;
@@ -222,7 +220,6 @@
   line-height: normal;
 }
 
-/* section about */
 .about {
   display: grid;
   grid-template-columns: 430px 885px;
@@ -270,8 +267,6 @@
 .about__text:last-child {
   margin-bottom: 0;
 }
-
-/* footer */
 
 .footer {
   display: grid;
