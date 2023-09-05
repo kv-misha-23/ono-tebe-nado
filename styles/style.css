@@ -81,7 +81,7 @@
 
 .aligned-text {
   display: block;
-  letter-spacing: 30px;
+  letter-spacing: 8px;
 }
 
 .aligned-text_left {
@@ -89,16 +89,29 @@
   letter-spacing: 22px;
 }
 
-.letter-spacing-extended {
-}
-
 .aligned-text_center {
   align-self: center;
 }
 
+.letter-spacing-element-group {
+  letter-spacing: 30px;
+}
+
+.letter-spacing-element-e {
+  letter-spacing: 64px;
+}
+
 .aligned-text_right {
   align-self: end;
-  letter-spacing: 15px;
+  letter-spacing: 17px;
+}
+
+.letter-spacing-element-a {
+  letter-spacing: -13px;
+}
+
+.letter-spacing-element-d {
+  letter-spacing: -12px;
 }
 
 .no-letter-spacing {
@@ -222,7 +235,7 @@
 
 .about {
   display: grid;
-  grid-template-columns: 430px 885px;
+  grid-template-columns: 430px minmax(auto, 885px);
   column-gap: 24px;
   max-width: 1340px;
   margin: 0 auto;
